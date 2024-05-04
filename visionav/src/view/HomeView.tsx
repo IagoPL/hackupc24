@@ -13,12 +13,10 @@ const Home = ({ navigation }) => {
 					<SquareButton accText="Destination" icon="airplane" onPress={() => {}}/>
 				</View>
 				<View style={Commons.centredContainer}>
-					{/* <ActionButton text="START" onPress={navigation.navigate("scanner")}/> */}
-					<ActionButton text="START" onPress={() => {}}/>
+					<ActionButton text="START" onPress={() => {navigation.navigate("Scanner")}}/>
 				</View>
 			</View>
 		</View>
-		
 	);
 }
 

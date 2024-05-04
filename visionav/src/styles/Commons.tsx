@@ -5,7 +5,7 @@ const Commons = StyleSheet.create({
 		backgroundColor: "#F6F740",
 		borderStyle: "solid",
 		borderColor: "#000000",
-		borderWidth: 4,
+		borderWidth: 6,
 		borderRadius: 20,
 		padding: 15,
 		margin: 10,
@@ -17,7 +17,10 @@ const Commons = StyleSheet.create({
 		height: 140, 
 		borderRadius: 20, 
 		padding: 5,
-		margin: 10
+		margin: 10,
+		borderStyle: "solid",
+		borderColor: "#000000",
+		borderWidth: 6
 	},
 	textInput: {
         borderRadius: 5,
